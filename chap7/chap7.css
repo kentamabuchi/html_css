@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.heading-text {
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  width: 840px;
+  margin: 50px auto;
+}
+
+.contents-item1 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.contents-item2 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.contents-item3 {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
+
+.contents-item4 {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #848282;
+}
