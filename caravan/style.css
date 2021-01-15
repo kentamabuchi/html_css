@@ -9,6 +9,14 @@ a {
   text-decoration: none;
 }
 
+header,
+nav,
+h2,
+.main-visual,
+footer {
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
@@ -20,6 +28,9 @@ header {
 .social {
   display: inline-block;
   margin-left: 20px;
+  position: absolute;
+  top: 22px;
+  right: 22px;
 }
 
 header .heading {
@@ -207,4 +218,70 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .social {
+    display: none;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .nav-list-item {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .blog {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blog-image {
+    width: 50%;
+    padding-left: 10px;
+  }
+
+  .blog-text {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .sidebar-heading {
+    padding-top: 50px;
+  }
+
+  .common-contents {
+    padding-left: 20px;
+  }
+
+  .instagram {
+    width: 100%;
+  }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
 }
